@@ -21,6 +21,7 @@ module.exports = {
         "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/no-explicit-any": "error",
         "unused-imports/no-unused-imports": "error",
-        "max-len": ["error", { "code": 80 }]
+        "max-len": ["error", { "code": 80 }],
+        "quotes": ["error", "double", { "avoidEscape": true }]
     },
 }
